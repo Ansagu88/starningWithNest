@@ -1,0 +1,14 @@
+
+version: '3.8'
+
+services:
+  db:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      MONGO_INITDB_DATABASE: pokedex
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./mongo_db_data:/data/db:U

@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #0fde5b;
+}
